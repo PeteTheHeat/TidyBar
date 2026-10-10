@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a menu bar or settings problem.
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: TidyBar version, macOS version and build number, and Mac model.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the category, steps to reproduce, and what you expected.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Setup
+      options:
+        - label: TidyBar is in Applications and Accessibility is enabled.
+        - label: Other menu bar managers are closed.
+        - label: I checked whether Pause Hiding or quitting restores the items.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra details
+      description: Screenshots are useful. Remove personal information before uploading.

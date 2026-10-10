@@ -1,0 +1,40 @@
+TidyBar 1.0.0
+A little less clutter.
+
+Requires macOS 27 or newer on an Apple Silicon Mac.
+Release page: https://github.com/PeteTheHeat/TidyBar/releases/latest
+
+INSTALL
+1. Open the DMG and drag TidyBar to Applications.
+   If you downloaded the ZIP, unzip it and move TidyBar.app to Applications.
+2. Open TidyBar from Applications.
+3. This release is ad-hoc signed, without Apple notarization. If macOS blocks it,
+   first attempt to open the app, then go to System Settings > Privacy & Security
+   and select Open Anyway for TidyBar. Review the app and confirm Open.
+   Apple's instructions: https://support.apple.com/en-us/102445
+4. In TidyBar, select Grant Access and enable TidyBar under
+   System Settings > Privacy & Security > Accessibility.
+
+USE
+Drag an item into Always Show, Show on Demand, or Always Hidden.
+You can also click an item and select its category.
+Click the TidyBar menu bar icon or press Option-Command-B to reveal on-demand items.
+Right-click the menu bar icon to open Settings, pause hiding, or quit.
+Pause Hiding and quitting restore all items.
+Screen Recording is optional and only needed for actual icon image previews.
+
+NOTES
+Run the installed copy in Applications. Close other menu bar managers.
+Multiple icons from one application share a category. Some Apple extras,
+including Now Playing and Fast User Switching, are suppressed by native hiding.
+This app uses a private macOS API that can change in system updates.
+Core behavior was verified on macOS 27.0.1; other OS versions are not verified.
+There is no telemetry, account, or network service.
+
+UPDATES
+Quit TidyBar before replacing it in Applications with a new release.
+Your category choices are stored locally and retained across updates.
+
+SOURCE AND LICENSE
+https://github.com/PeteTheHeat/TidyBar
+GPL-3.0. See the included license and third-party notices.
